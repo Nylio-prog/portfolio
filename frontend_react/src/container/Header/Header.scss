@@ -168,6 +168,9 @@
         width: 100%;
         object-fit: contain;
         z-index: 1;
+        min-height: 350px;
+        min-width: 350px;
+
     }
 
     .overlay-circle {
