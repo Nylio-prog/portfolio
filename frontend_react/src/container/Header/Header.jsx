@@ -31,6 +31,7 @@ const Header = () => {
             <div style={{marginLeft: 20}}>
               <p className='p-text'>Hello, I am</p>
               <h1 className='head-text'>Nils</h1>
+              <p className='p-text'>📍 Rouen France</p>
             </div>
           </div>
 
