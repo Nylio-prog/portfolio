@@ -49,6 +49,10 @@
     text-transform: uppercase;
     color: var(--black-color);
   }
+
+  @media screen and (max-width: 500px) {
+      padding: 2rem;
+  }
 }
 
 .head-text {
@@ -146,6 +150,14 @@
       }
     }
   }
+
+  @media screen and (max-width: 500px) {
+    padding: 0.5rem;
+  }
+
+  @media screen and (max-width: 400) {
+    padding: 0.2rem;
+  }
 }
 
 .app__navigation {
@@ -174,15 +186,13 @@
       height: 20px;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    padding: 0.5rem;
+  }
+
+  @media screen and (max-width: 400) {
+    padding: 0.2rem;
+  }
 }
 
-@media screen and (max-width: 500px) {
-  .app__navigation,
-  .app__social {
-    display: none;
-  }
-  
-  .copyright {
-    padding: 2rem;
-  }
-}

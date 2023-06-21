@@ -26,6 +26,7 @@ const Footer = () => {
       name: name,
       email: email,
       message: message,
+      date: new Date().toISOString(),
     }
 
     client.create(contact)
