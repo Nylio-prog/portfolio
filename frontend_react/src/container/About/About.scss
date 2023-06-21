@@ -35,4 +35,12 @@
             height: 320px;
         }
     }
+
+    @media screen and (max-width: 400px) {
+        margin: 2rem 0rem 2rem;
+        img {
+            height: 150px;
+            height: 140px;
+        }
+    }
 }

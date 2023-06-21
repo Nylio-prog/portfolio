@@ -9,7 +9,7 @@ import python from '../assets/python.png';
 import react from '../assets/react.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
-
+import circle from '../assets/circle.svg'
 import profile from '../assets/profile.png';
 import logo from '../assets/logo.png';
 
@@ -27,6 +27,7 @@ const names = {
   typescript,
   profile,
   logo,
+  circle,
 };
 
 export default names;

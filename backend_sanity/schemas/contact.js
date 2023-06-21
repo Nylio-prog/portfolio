@@ -17,6 +17,11 @@ export default {
             name:'message',
             title:'Message',
             type:'text'
+        },
+        {
+            name:'date',
+            title:'Date',
+            type:'datetime'
         }
     ]
 }
