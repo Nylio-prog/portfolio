@@ -62,7 +62,7 @@ const Skills = () => {
                     <>
                       <motion.div
                         whileInView={{opacity: [0, 1]}}
-                        transition={{duration: 0.5}}
+                        transition={{ duration: 0.5 }}
                         className='app__skills-exp-work'
                         data-tooltip-id={work.name}
                         data-tooltip-content={work.desc}

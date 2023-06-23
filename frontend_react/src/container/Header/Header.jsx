@@ -11,7 +11,7 @@ const scaleVariants = {
     scale: [0, 1],
     opacity: [0, 1],
     transition: {
-      duration: 1,
+      duration: 0.5,
       ease: 'easeInOut'
     }
   }
@@ -22,7 +22,7 @@ const Header = () => {
     <div className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100,0], opacity: [0, 1]}}
-        transition={{duration: 1}}
+        transition={{duration: 0.5}}
         className='app__header-info'
       >
         <div className='app__header-badge'>
@@ -44,13 +44,13 @@ const Header = () => {
 
       <motion.div
         whileInView={{opacity: [0, 1]}}
-        transition={{duration: 1, delayChildren: 1}}
+        transition={{ duration: 0.5, delayChildren: 0.5 }}
         className='app__header-img'
       >
         <img src={images.profile} alt="profile_bg" />
         <motion.div
         whileInView={{ scale: [0, 1]}}
-        transition={{ duration: 1, ease: 'easeInOut'}}
+        transition={{ duration: 0.5, ease: 'easeInOut'}}
         src={images.circle}
         alt="profile_circle"
         className='overlay_circle'
