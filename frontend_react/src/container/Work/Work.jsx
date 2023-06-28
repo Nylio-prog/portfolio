@@ -17,7 +17,7 @@ const Work = () => {
 
     client.fetch(query).then((data) => {
       setWorks(data);
-      setFilterWork(data);
+      setFilterWork(data.sort(function(a, b) {return a.title.localeCompare(b.title)}));
     });
   }, []);
 
@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text">My <span>Projects</span> Section</h2>
 
       <div className="app__work-filter">
-        {['React', 'Javascript', 'C', 'Sanity', 'Git', 'All'].map((item, index) => (
+        {['Next JS', 'React', 'Typescript', 'Javascript', 'C', 'Python', 'Authentication', 'Tailwind CSS', 'SASS', 'PostgreSQL', 'Sanity', 'Stripe', 'Git', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
