@@ -12,6 +12,7 @@ import typescript from '../assets/typescript.png';
 import circle from '../assets/circle.svg'
 import profile from '../assets/profile.png';
 import logo from '../assets/logo.png';
+import nextjs from '../assets/nextjs.png';
 
 const names = {
   email,
@@ -28,6 +29,7 @@ const names = {
   profile,
   logo,
   circle,
+  nextjs,
 };
 
 export default names;
